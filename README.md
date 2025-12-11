@@ -72,37 +72,41 @@ Developed and maintained by **TechOtter**, licensed under the **MIT License**.
 
 ## 🐧 Debian Installation with Auto‑Installer
 
-You can install BAN4ASN using the included `.sh` installation script:
+🐧 Debian Installation with Auto‑Installer
 
-```
-bash install_b4a.sh
-```
+You can install BAN4ASN using the included .sh installation script:
+
+    bash install_b4a.sh
 
 You will be asked to select a source mirror:
 
-```
-Please select a mirror:
-1. GitHub
-2. TechOtter CDN (Germany)
-```
+    Please select a mirror:
+    1. Alex's GIT (https://git.techotterdev.com/alex/BAN4ASN)
+    2. GitHub (https://github.com/alex/BAN4ASN)
 
-### Mirror behavior
+Mirror behavior
 
-#### **1. GitHub mirror**
-- Installs `git` automatically
-- Clones:
-  https://github.com/thetechotter/BAN4ASN/
-- Installs to:  
-  `/opt/b4a/`
+1. Alex’s GIT mirror
 
-#### **2. TechOtter CDN mirror**
-- Installs `unzip`
-- Downloads archive:
-  https://c.techotterdev.com/tools/b4a/ban4asn.zip
-- Extracts into:
-  `/opt/b4a/`
+-   Installs git automatically
+-   Clones:
+    https://git.techotterdev.com/alex/BAN4ASN/
+-   Installs to /opt/b4a/
+
+2. GitHub mirror
+
+-   Uses GitHub repository
+-   Same install behavior
+-   Falls back easily if primary mirror is slow
 
 CLI and system paths are set automatically.
+
+## Mirror Location's
+| Mirror  | Location |
+| ------------- |:-------------:|
+| Alex's GIT      | Massapequa Park, NY, USA    |
+| GitHub      | Load Balanced (Location Based)     |
+| Alex's CDN (soon)     | Frankfurt, Germany     |
 
 ---
 
@@ -185,4 +189,6 @@ Created by **TechOtter**.
 
 Contributions are welcome!  
 Fork the project, submit PRs, or contact TechOtter for feature requests.
+Oh and yeah githubs AI banned me over this one :3
+I got unbanned lol!
 
